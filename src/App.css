@@ -30,11 +30,16 @@
 
 .square {
   margin: 1px;
+  width: 27px;
+  height: 21px;
+}
+
+.board-row {
+  display: flex;
 }
 
 .square:hover {
   border: 1px solid;
-  margin: 2px;
 }
 
 @keyframes App-logo-spin {
